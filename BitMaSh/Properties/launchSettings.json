@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BitMaSh": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
