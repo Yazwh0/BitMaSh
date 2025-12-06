@@ -14,8 +14,6 @@ namespace BitMaSh
                 throw new Exception("Emulator not set.");
 
             Console.Clear();
-            //Console.SetWindowSize(80, 60);
-            //Console.SetBufferSize(80, 60);
             Console.SetCursorPosition(0, 0);
             Console.CursorVisible = false;
 

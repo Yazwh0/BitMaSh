@@ -31,11 +31,11 @@ static class Program
 
 
         // setup terminal
-        if (Console.BufferWidth < 80)
-            Console.BufferWidth = 80;
+        //if (Console.BufferWidth < 80)
+        //    Console.BufferWidth = 80;
 
         var emulator = new Emulator();
-
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
 
         var rom = options.RomFilename;
 
